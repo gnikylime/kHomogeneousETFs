@@ -3,6 +3,15 @@ Code to accompany the paper <a href="https://arxiv.org/pdf/2505.00160">k-Homogen
 
  <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p> 
 
+ ### Code 
+The code is written in Matlab, GAP, and SAGE, with the latter two languages in a Python notebook. Joey Iverson and CoCalc's code assist powered by ChatGPT helped with the GAP and SAGE code.<br>
+
+<tt>grp_to_mat.m</tt> Converting elements in finite abelian group to Matlab indices<br>
+<tt>diffSetETF.m</tt> Create difference set ETF from group elements<br>
+<tt>genPaleyETF.m</tt> Generate Paley ETF and symmetries<br>
+<tt>PaleyDiffSet.ipynb</tt> Code to generate a .mat file of quadratic residues in F_{p^k}, represented as rows in a (p^k-1)/2 x k integer matrix.
+
+
  ### License
 
  <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p> 
