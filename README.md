@@ -9,6 +9,7 @@ The code is written in Matlab, GAP, and SAGE, with the latter two languages in a
 <tt>grp_to_mat.m</tt> Converting elements in finite abelian group to Matlab indices<br>
 <tt>diffSetETF.m</tt> Create difference set ETF from group elements<br>
 <tt>genPaleyETF.m</tt> Generate Paley ETF and symmetries<br>
+<tt>testingEx.m</tt> A script showing how to use the provided code to test symmetries of Paley difference set ETFs.<br>
 <tt>PaleyDiffSet.ipynb</tt> Code to generate a .mat file of quadratic residues in F_{p^k}, represented as rows in a (p^k-1)/2 x k integer matrix.
 
 
